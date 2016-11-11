@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5947FF671DD67F0600465ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947FF661DD67F0600465ED8 /* AppDelegate.swift */; };
+		5947FF691DD67F0600465ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947FF681DD67F0600465ED8 /* ViewController.swift */; };
+		5947FF6C1DD67F0600465ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5947FF6A1DD67F0600465ED8 /* Main.storyboard */; };
+		5947FF6E1DD67F0600465ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5947FF6D1DD67F0600465ED8 /* Assets.xcassets */; };
+		5947FF711DD67F0600465ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5947FF6F1DD67F0600465ED8 /* LaunchScreen.storyboard */; };
+		5947FF7C1DD67F0600465ED8 /* DeltaStalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947FF7B1DD67F0600465ED8 /* DeltaStalkerTests.swift */; };
+		5947FF871DD67F0600465ED8 /* DeltaStalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5947FF861DD67F0600465ED8 /* DeltaStalkerUITests.swift */; };
+		E9115EEB7EDF94965EC0319E /* libPods-DeltaStalker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5EAFBACB6D5E5DD11F2443 /* libPods-DeltaStalker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5947FF781DD67F0600465ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5947FF5B1DD67F0600465ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5947FF621DD67F0600465ED8;
+			remoteInfo = DeltaStalker;
+		};
+		5947FF831DD67F0600465ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5947FF5B1DD67F0600465ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5947FF621DD67F0600465ED8;
+			remoteInfo = DeltaStalker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5EAFBACB6D5E5DD11F2443 /* libPods-DeltaStalker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeltaStalker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2795839116BD1650FD06E1 /* Pods-DeltaStalker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeltaStalker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeltaStalker/Pods-DeltaStalker.release.xcconfig"; sourceTree = "<group>"; };
+		3E4A068F1A7FFC675B16A6ED /* Pods-DeltaStalker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeltaStalker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeltaStalker/Pods-DeltaStalker.debug.xcconfig"; sourceTree = "<group>"; };
+		5947FF631DD67F0600465ED8 /* DeltaStalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeltaStalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5947FF661DD67F0600465ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5947FF681DD67F0600465ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5947FF6B1DD67F0600465ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5947FF6D1DD67F0600465ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5947FF701DD67F0600465ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5947FF721DD67F0600465ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5947FF771DD67F0600465ED8 /* DeltaStalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeltaStalkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5947FF7B1DD67F0600465ED8 /* DeltaStalkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaStalkerTests.swift; sourceTree = "<group>"; };
+		5947FF7D1DD67F0600465ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5947FF821DD67F0600465ED8 /* DeltaStalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeltaStalkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5947FF861DD67F0600465ED8 /* DeltaStalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaStalkerUITests.swift; sourceTree = "<group>"; };
+		5947FF881DD67F0600465ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CD744D1DD683D300EF8883 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5947FF601DD67F0600465ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9115EEB7EDF94965EC0319E /* libPods-DeltaStalker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5947FF741DD67F0600465ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5947FF7F1DD67F0600465ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D777E5C90171550FE791CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D5EAFBACB6D5E5DD11F2443 /* libPods-DeltaStalker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5947FF5A1DD67F0600465ED8 = {
+			isa = PBXGroup;
+			children = (
+				59CD744D1DD683D300EF8883 /* ObjCBridge.h */,
+				5947FF651DD67F0600465ED8 /* DeltaStalker */,
+				5947FF7A1DD67F0600465ED8 /* DeltaStalkerTests */,
+				5947FF851DD67F0600465ED8 /* DeltaStalkerUITests */,
+				5947FF641DD67F0600465ED8 /* Products */,
+				8AE91ED2E96F68D880D6436C /* Pods */,
+				14D777E5C90171550FE791CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5947FF641DD67F0600465ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5947FF631DD67F0600465ED8 /* DeltaStalker.app */,
+				5947FF771DD67F0600465ED8 /* DeltaStalkerTests.xctest */,
+				5947FF821DD67F0600465ED8 /* DeltaStalkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5947FF651DD67F0600465ED8 /* DeltaStalker */ = {
+			isa = PBXGroup;
+			children = (
+				5947FF661DD67F0600465ED8 /* AppDelegate.swift */,
+				5947FF681DD67F0600465ED8 /* ViewController.swift */,
+				5947FF6A1DD67F0600465ED8 /* Main.storyboard */,
+				5947FF6D1DD67F0600465ED8 /* Assets.xcassets */,
+				5947FF6F1DD67F0600465ED8 /* LaunchScreen.storyboard */,
+				5947FF721DD67F0600465ED8 /* Info.plist */,
+			);
+			path = DeltaStalker;
+			sourceTree = "<group>";
+		};
+		5947FF7A1DD67F0600465ED8 /* DeltaStalkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5947FF7B1DD67F0600465ED8 /* DeltaStalkerTests.swift */,
+				5947FF7D1DD67F0600465ED8 /* Info.plist */,
+			);
+			path = DeltaStalkerTests;
+			sourceTree = "<group>";
+		};
+		5947FF851DD67F0600465ED8 /* DeltaStalkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5947FF861DD67F0600465ED8 /* DeltaStalkerUITests.swift */,
+				5947FF881DD67F0600465ED8 /* Info.plist */,
+			);
+			path = DeltaStalkerUITests;
+			sourceTree = "<group>";
+		};
+		8AE91ED2E96F68D880D6436C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E4A068F1A7FFC675B16A6ED /* Pods-DeltaStalker.debug.xcconfig */,
+				3A2795839116BD1650FD06E1 /* Pods-DeltaStalker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5947FF621DD67F0600465ED8 /* DeltaStalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5947FF8B1DD67F0600465ED8 /* Build configuration list for PBXNativeTarget "DeltaStalker" */;
+			buildPhases = (
+				2E84B11C7D43E74F701CEE3E /* [CP] Check Pods Manifest.lock */,
+				5947FF5F1DD67F0600465ED8 /* Sources */,
+				5947FF601DD67F0600465ED8 /* Frameworks */,
+				5947FF611DD67F0600465ED8 /* Resources */,
+				98B7B4C7C75ED94409EF5D74 /* [CP] Embed Pods Frameworks */,
+				EF5F28A4C598A21C4C292905 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeltaStalker;
+			productName = DeltaStalker;
+			productReference = 5947FF631DD67F0600465ED8 /* DeltaStalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5947FF761DD67F0600465ED8 /* DeltaStalkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5947FF8E1DD67F0600465ED8 /* Build configuration list for PBXNativeTarget "DeltaStalkerTests" */;
+			buildPhases = (
+				5947FF731DD67F0600465ED8 /* Sources */,
+				5947FF741DD67F0600465ED8 /* Frameworks */,
+				5947FF751DD67F0600465ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5947FF791DD67F0600465ED8 /* PBXTargetDependency */,
+			);
+			name = DeltaStalkerTests;
+			productName = DeltaStalkerTests;
+			productReference = 5947FF771DD67F0600465ED8 /* DeltaStalkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5947FF811DD67F0600465ED8 /* DeltaStalkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5947FF911DD67F0600465ED8 /* Build configuration list for PBXNativeTarget "DeltaStalkerUITests" */;
+			buildPhases = (
+				5947FF7E1DD67F0600465ED8 /* Sources */,
+				5947FF7F1DD67F0600465ED8 /* Frameworks */,
+				5947FF801DD67F0600465ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5947FF841DD67F0600465ED8 /* PBXTargetDependency */,
+			);
+			name = DeltaStalkerUITests;
+			productName = DeltaStalkerUITests;
+			productReference = 5947FF821DD67F0600465ED8 /* DeltaStalkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5947FF5B1DD67F0600465ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Delta;
+				TargetAttributes = {
+					5947FF621DD67F0600465ED8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5947FF761DD67F0600465ED8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5947FF621DD67F0600465ED8;
+					};
+					5947FF811DD67F0600465ED8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5947FF621DD67F0600465ED8;
+					};
+				};
+			};
+			buildConfigurationList = 5947FF5E1DD67F0600465ED8 /* Build configuration list for PBXProject "DeltaStalker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5947FF5A1DD67F0600465ED8;
+			productRefGroup = 5947FF641DD67F0600465ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5947FF621DD67F0600465ED8 /* DeltaStalker */,
+				5947FF761DD67F0600465ED8 /* DeltaStalkerTests */,
+				5947FF811DD67F0600465ED8 /* DeltaStalkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5947FF611DD67F0600465ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5947FF711DD67F0600465ED8 /* LaunchScreen.storyboard in Resources */,
+				5947FF6E1DD67F0600465ED8 /* Assets.xcassets in Resources */,
+				5947FF6C1DD67F0600465ED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5947FF751DD67F0600465ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5947FF801DD67F0600465ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E84B11C7D43E74F701CEE3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98B7B4C7C75ED94409EF5D74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeltaStalker/Pods-DeltaStalker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5F28A4C598A21C4C292905 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeltaStalker/Pods-DeltaStalker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5947FF5F1DD67F0600465ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5947FF691DD67F0600465ED8 /* ViewController.swift in Sources */,
+				5947FF671DD67F0600465ED8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5947FF731DD67F0600465ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5947FF7C1DD67F0600465ED8 /* DeltaStalkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5947FF7E1DD67F0600465ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5947FF871DD67F0600465ED8 /* DeltaStalkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5947FF791DD67F0600465ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5947FF621DD67F0600465ED8 /* DeltaStalker */;
+			targetProxy = 5947FF781DD67F0600465ED8 /* PBXContainerItemProxy */;
+		};
+		5947FF841DD67F0600465ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5947FF621DD67F0600465ED8 /* DeltaStalker */;
+			targetProxy = 5947FF831DD67F0600465ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5947FF6A1DD67F0600465ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5947FF6B1DD67F0600465ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5947FF6F1DD67F0600465ED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5947FF701DD67F0600465ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5947FF891DD67F0600465ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5947FF8A1DD67F0600465ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5947FF8C1DD67F0600465ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4A068F1A7FFC675B16A6ED /* Pods-DeltaStalker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeltaStalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwestern.delta.DeltaStalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5947FF8D1DD67F0600465ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2795839116BD1650FD06E1 /* Pods-DeltaStalker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeltaStalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwestern.delta.DeltaStalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5947FF8F1DD67F0600465ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeltaStalkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwestern.delta.DeltaStalkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeltaStalker.app/DeltaStalker";
+			};
+			name = Debug;
+		};
+		5947FF901DD67F0600465ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeltaStalkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwestern.delta.DeltaStalkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeltaStalker.app/DeltaStalker";
+			};
+			name = Release;
+		};
+		5947FF921DD67F0600465ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DeltaStalkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwestern.delta.DeltaStalkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DeltaStalker;
+			};
+			name = Debug;
+		};
+		5947FF931DD67F0600465ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DeltaStalkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwestern.delta.DeltaStalkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DeltaStalker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5947FF5E1DD67F0600465ED8 /* Build configuration list for PBXProject "DeltaStalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5947FF891DD67F0600465ED8 /* Debug */,
+				5947FF8A1DD67F0600465ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5947FF8B1DD67F0600465ED8 /* Build configuration list for PBXNativeTarget "DeltaStalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5947FF8C1DD67F0600465ED8 /* Debug */,
+				5947FF8D1DD67F0600465ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5947FF8E1DD67F0600465ED8 /* Build configuration list for PBXNativeTarget "DeltaStalkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5947FF8F1DD67F0600465ED8 /* Debug */,
+				5947FF901DD67F0600465ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5947FF911DD67F0600465ED8 /* Build configuration list for PBXNativeTarget "DeltaStalkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5947FF921DD67F0600465ED8 /* Debug */,
+				5947FF931DD67F0600465ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5947FF5B1DD67F0600465ED8 /* Project object */;
+}
