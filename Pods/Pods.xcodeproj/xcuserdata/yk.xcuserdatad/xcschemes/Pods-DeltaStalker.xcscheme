@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F81CBA30101848049C981B9A7F4D7269'
+               BlueprintIdentifier = 'DE71DEE35DBF09F6D274446BA4722A38'
                BlueprintName = 'Pods-DeltaStalker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-DeltaStalker.a'>

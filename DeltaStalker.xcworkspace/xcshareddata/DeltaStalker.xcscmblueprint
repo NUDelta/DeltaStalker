@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6A4228A00FEECC879C2AE55643E14E92DA68EA06",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6A4228A00FEECC879C2AE55643E14E92DA68EA06" : 9223372036854775807,
+    "6F2DEAB601A737E896623763E294904C3E97A7A9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1108C9D9-34BB-40CC-9814-5AE6D84CFD02",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6A4228A00FEECC879C2AE55643E14E92DA68EA06" : "DeltaStalker\/",
+    "6F2DEAB601A737E896623763E294904C3E97A7A9" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DeltaStalker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DeltaStalker.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:NUDelta\/DeltaStalker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A4228A00FEECC879C2AE55643E14E92DA68EA06"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:NUDelta\/DeltaStalker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F2DEAB601A737E896623763E294904C3E97A7A9"
+    }
+  ]
+}
