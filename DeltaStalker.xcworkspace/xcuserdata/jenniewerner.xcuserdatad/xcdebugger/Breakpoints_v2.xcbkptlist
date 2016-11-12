@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeltaStalker/ViewController.swift"
+            timestampString = "500606092.572101"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "sign(_:didSignInFor:withError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeltaStalker/AppDelegate.swift"
+            timestampString = "500606092.572101"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "sign(_:didSignInFor:withError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeltaStalker/DSTableViewController.swift"
+            timestampString = "500606719.299524"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.__deallocating_deinit"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500606721.33288"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.init (style : __C.UITableViewStyle) -&gt; DeltaStalker.DSTableViewController"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500606721.410658"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.__allocating_init (style : __C.UITableViewStyle) -&gt; DeltaStalker.DSTableViewController"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500606721.413368"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DeltaStalker.DSTableViewController"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500606721.415617"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DeltaStalker.DSTableViewController"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500606721.417853"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DeltaStalker.DSTableViewController&gt;"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500606721.419967"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DeltaStalker.DSTableViewController&gt;"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500606721.422155"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeltaStalker/DSTableViewController.swift"
+            timestampString = "500608475.190045"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeltaStalker/DSTableViewController.swift"
+            timestampString = "500608633.599032"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeltaStalker/DSTableViewController.swift"
+            timestampString = "500608675.021023"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeltaStalker/DSTableViewController.swift"
+            timestampString = "500608676.709779"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500608790.683136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeltaStalker.DSTableViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "DeltaStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenniewerner/Dropbox/2016-2017/dtr/DeltaStalker/DeltaStalker/DSTableViewController.swift"
+                  timestampString = "500608790.686118"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeltaStalker/DSTableViewController.swift"
+            timestampString = "500608757.441794"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

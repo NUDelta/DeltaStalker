@@ -7,18 +7,36 @@
 //
 
 import UIKit
+import Firebase
 
 class DSTableViewController: UITableViewController {
 
+    var ref: FIRDatabaseReference! = FIRDatabase.database().reference()
+
+    var people : [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        self.ref.child("in-the-lab").queryOrdered(byChild: "fullName").observeSingleEvent(of: .value, with: {
+            Snapshot in
+            if let snapDict = Snapshot.value as? [String:AnyObject]{
+                
+                for child in snapDict{
+                    self.people.append(child.value["fullName"] as! String)
+                    print(self.people)
+                }
+                self.tableView.reloadData()
+            }
+        })
+        
+    }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -29,23 +47,26 @@ class DSTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return people.count
     }
 
-    /*
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath)
+        let person_name = people[indexPath.row]
+        
+        cell.textLabel?.text = person_name
+        
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
